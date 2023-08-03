@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Компания «Импульс»</title>
+</head>
+<body>
+<h1><b><i>Список сотрудников компании «Импульс»</i></b></h1>
+<h2><i>Отдел разработки</i></h2>
+<div class="div1"><h3><ul><li>Главный разработчик — {{ emp1 }}</li> <li>Младший разработчик — {{ emp2 }}</li><li>Тестировщик — {{ emp3 }}</li></ul></h3></div>
+<h2><i>Бухгалтерия</i></h2>
+<div class="div2"><h3><ul><li>Старший бухгалтер — {{ emp4 }}</li> <li>Бухгалтер — {{ emp5 }}</li></ul></h3></div>
+</body>
+</html>
